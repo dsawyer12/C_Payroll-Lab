@@ -1,0 +1,6 @@
+gcc -c -o main.o Main/main.c
+gcc -c -o gross.o Gross/gross.c
+gcc -c -o tax.o FICA/tax.c
+gcc -c -o net.o Net/net.c
+gcc -c -o newPage.o Page/newPage.c
+gcc -o payroll main.o gross.o tax.o net.o newPage.o
